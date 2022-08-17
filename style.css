@@ -1,24 +1,52 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background: url(https://developer.mozilla.org/docs/Web/CSS/background);
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-loginbox{
-    background: #000;
-    width: 320%;
-    height: 420px;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
+body{
+    background-color: #a3ebfc;
+}
 
+.auth-container{
+    /* border: 1px solid black; */
+    width: 250px;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgb(65 169 156 / 24%) 0px 8px 16px 0px;
+}
 
+.auth-container .title {
+    margin-bottom: 20px;
+}
 
+.auth-container input{
+    /* width: 100%; */
+    padding: 10px 25px;
+    margin-bottom: 8px;
+    outline: none;
+}
 
+.auth-container input:focus{
+    border-color: #a3ebfc;
+}
+
+.auth-container button{
+    align-self: center;
+    /* margin-top: 8px; */
+    margin-bottom: 8px;
+    padding: 5px 12px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.auth-container a{
+    font-size: 12px;
 }
